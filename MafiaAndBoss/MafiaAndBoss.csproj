@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8D376643-DFE6-49C6-90A6-68AE4EC72DCA}</ProjectGuid>
+    <ProjectGuid>{61F38C52-1AC9-4341-B576-B66AA5BEE5AF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Comparers</RootNamespace>
-    <AssemblyName>Comparers</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>MafiaAndBoss</RootNamespace>
+    <AssemblyName>MafiaAndBoss</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,11 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bubble.cs" />
+    <Compile Include="Boss.cs" />
+    <Compile Include="Mafia.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="StudentComparer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

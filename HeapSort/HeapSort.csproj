@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8D376643-DFE6-49C6-90A6-68AE4EC72DCA}</ProjectGuid>
+    <ProjectGuid>{53556488-1C80-43B3-9E6E-2C0077E96EE9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Comparers</RootNamespace>
-    <AssemblyName>Comparers</AssemblyName>
+    <RootNamespace>HeapSort</RootNamespace>
+    <AssemblyName>HeapSort</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bubble.cs" />
+    <Compile Include="Heap.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="StudentComparer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

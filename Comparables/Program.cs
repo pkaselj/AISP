@@ -4,7 +4,6 @@ namespace Comparables
 {
     class Program
     {
-        // Iz nekog retardiranog razloga ih sortira po imenu ?????
         static void Main(string[] args)
         {
             Student[] students =
